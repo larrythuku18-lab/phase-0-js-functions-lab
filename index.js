@@ -27,8 +27,8 @@ function isPalindrome(word) {
     }
 }
 
-function calculateDiscountedPrice(originalprice, discount) {
-    const discountedAmount = originalprice * discount;
+function calculateDiscountedPrice(originalprice, discountPercentage) {
+    const discountedAmount = originalprice * (discountPercentage / 100);
     return originalprice - discountedAmount;
 }
 
