@@ -19,7 +19,7 @@ function findMaximum(num1, num2) {
 }
 
 function isPalindrome(word) {
-    if (racecar === word.split('').reverse().join('')) {
+    if (word === word.split('').reverse().join('')) {
         return true;
     }
     else {
